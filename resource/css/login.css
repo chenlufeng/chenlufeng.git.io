@@ -1,0 +1,57 @@
+@charset "UTF-8";
+body, html{min-width:1400px; width:100%; height:100%; margin:0; overflow-x:hidden; font-family:Arial,"Hiragino Sans GB",Microsoft YaHei,sans-serif; font-size:14px; color:#333; background:#fff; line-height:1.4285; word-wrap:break-word; word-break:break-all;}
+table{border-collapse:collapse; border-spacing:0;}
+td{padding:0px;}
+ul{margin:0px; padding:0px;}
+ul li{margin-left:20px;}
+
+.top{width:100%; height:60px; line-height:60px; color:#C52E25; background:#f0f0f0;}
+.top-container{width:1200px; height:100%; margin:0 auto;}
+.top-container .logo{float:left; width:124px; height:47px; margin-top:6px; background:url(../image/icon-logo.png) no-repeat;}
+.top-container .slogan{float:left; width:172px; height:19px; margin-top:20px; margin-left:26px; background:url(../image/icon-slogan.png) no-repeat;}
+.top-container .nav{float:left; width:300px; margin-left:71px; font-size:14px; color:#C52E25;}
+.top-container .nav .item{float:left; width:80px; text-align:center; font-size:14px; color:#C52E25; cursor:pointer;}
+.top-container .nav .item:hover{background:#E5E5E5; color:#C52E25;}
+.top-container .nav .item-curr{float:left; width:80px; text-align:center; font-size:14px; color:#fff; cursor:pointer; background:#C52E25;}
+
+.banner-index{width:100%; height:350px; background:url(../image/banner-index.jpg) no-repeat center center;}
+.banner-opportunity{width:100%; height:300px; background:url(../image/banner-opportunity.jpg) no-repeat center center;}
+.banner-solution{width:100%; height:300px; background:url(../image/banner-solution.jpg) no-repeat center center;}
+.banner-advantage{width:100%; height:300px; background:url(../image/banner-advantage.jpg) no-repeat center center;}
+.banner-about{width:100%; height:208px; background:url(../image/banner-about.jpg) no-repeat center center;}
+.login-back{width:100%; height:208px; background:url(../image/login-back.jpg) no-repeat center center;}
+
+.main{width:100%; min-height:800px;}
+.main-container{width:1200px; height:100%; margin:0 auto;}
+.login-alpha{position:absolute; top:100px;left: 1180px;z-index:1001;opacity:0.75;-moz-opacity: 0.5;filter: alpha(opacity=50);}
+.canvas{position: absolute;}
+
+.foot{width:100%; height:158px; background:#f0f0f0;}
+.foot-container{width:1000px; height:100%; margin:0 auto;}
+
+.error{width:100%; height:600px; margin:0 auto;}
+.error-container{width:1200px; height:100%; margin:0 auto;}
+.error-container .img{width:171px; height:171px; margin:0 auto; margin-top:150px; background:url("../image/bg-error.jpg") no-repeat;}
+.error-container .txt{width:100%; height:30px; margin-top:40px; text-align:center; font-size:24px; font-weight:bold;}
+.error-container .msg{width:100%; height:30px; margin-top:30px; text-align:center; font-size:14px;}
+
+
+.login-logo{width:100%; height:95px; background:url(../image/logo.png) no-repeat center;margin-top:20px;}
+
+.word-spacing-12{word-spacing:12px;} 
+.letter-spacing-5{letter-spacing:5px;}
+.margin-top-130{margin-top:130px;}
+.margin-bottom-338{margin-bottom:338px;}
+.margin-auto-w{margin:0 auto;}
+.hr{height:1px; width:100%; border:none;border-top:1px solid #e2e2e2;}
+.errorMsg{color:red;height:20px;line-height: 20px;}
+.email{padding-left:100px;padding-top:20px;}
+.psw{padding-left:100px;padding-top:13px;}
+.rembPsw{padding-left:100px;padding-top:20px;width:295px;height: 16px;}
+.rememberMe{margin-left: 0px;margin-top: 2px;float: left}
+.read{margin-left: 142px;margin-top: 2px;float: left}
+.login{border-radius:4px;margin-top:20px;height: 44px;line-height: 44px;text-align:center;font-size:14px;color:#FFFFFF;font-family:'微软雅黑';}
+.resend{cursor:pointer;padding-top:13px;border: 0px;height:10px;font-size: 10px;}
+ .forget{float: right;text-decoration:none;font-size: 12px;}
+ 
+ 

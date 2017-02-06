@@ -1,0 +1,90 @@
+/* 
+ * areaUI 0.1 
+ * Copyright (c) 2009 Maria 
+ * Date: 2013-05-15 
+ * 娴ｈ法鏁reaUI閸欘垯浜掗弬閫涚┒閸︿即锟介幏鈺冩阜鐢倸灏�
+ */
+body{ font-size: 12px;}
+ul,ol{ list-style-image: none; list-style-position: outside; list-style-type: none;}
+dl,dt,dd,ul,ol,li{ margin: 0; padding: 0;}
+.area-s{ border:1px solid #cccccc; float:left; height: 24px; width: 128px; color: #666666; display: block;}
+.i-7{ z-index:1; padding-left: 0px; cursor:pointer; margin-left: 205px; margin-top: 9px; *margin-top: -20px;_margin-top: -20px;vertical-align:middle; display:block; background:url(up.jpg) no-repeat; height: 14px; width: 14px; position:absolute;clear: both; float: left; }
+
+.area-tab{ z-index:2; display:block; width: 270px; min-height: 115px; background: #ffffff; clear:both;position: absolute; margin-top:29px;*margin-top:1px;_margin-top:1px;  border: 1px solid #E5E5E5;}
+.area-tab .h{ background: #ffffff; border-bottom: 1px solid #e5e5e5; width:270px; height:32px;}
+.area-tab .h .s-tab-t{ text-align:center; line-height:32px; float: left; height:32px; cursor: pointer; list-style: none; border-right: 1px solid #E5E5E5; background: #f6f6f6; width: 54px;}
+.area-tab .h .inner { display: inline-block; font-size: 14px; height: 32px; line-height: 32px; overflow-x: hidden;overflow-y: hidden;text-align: center;}
+.area-tab .h .current {background-color: #FFFFFF;color: #0066CC; font-weight: bold;}
+.area-tab .s-tab-b {
+    background-color: #FFFFFF;
+    z-index: 100;
+}
+.area-tab .s-tab-b li {
+    display: inline-block;
+    float: left;
+}
+.area-tab .s-tab-b .panel-item {
+    -moz-text-blink: none;
+    -moz-text-decoration-color: -moz-use-text-color;
+    -moz-text-decoration-line: none;
+    -moz-text-decoration-style: solid;
+    color: #404040;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    height: 24px;
+    line-height: 24px;
+    margin-bottom: 0;
+    margin-left: 5px;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 0;
+    white-space: nowrap;
+    text-decoration: none;
+}
+a.panel-item:visited {
+    -moz-text-blink: none;
+    -moz-text-decoration-color: -moz-use-text-color;
+    -moz-text-decoration-line: none;
+    -moz-text-decoration-style: solid;
+    color: #404040;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    height: 24px;
+    line-height: 24px;
+    margin-bottom: 0;
+    margin-left: 5px;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 0;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.area-tab .s-tab-b .current {
+    background-color: #0066CC;
+    color: #FFFFFF;
+}
+.area-tab .s-tab-b a:hover {
+    background-color: #9CD2FF;
+}
+.area-tab .s-tab-b .panel-category {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.area-tab .panel-category dt {
+    color: #0066CC;
+    float: left;
+    margin-left: 10px;
+    width: 30px;
+}
+.area-tab .panel-category dd {
+    float: left;
+    width: 200px;
+}

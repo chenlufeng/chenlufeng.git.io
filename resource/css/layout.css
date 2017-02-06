@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+/* 半透明背景 */
+.layout-shadow{width:100%; height:100%; position:fixed; z-index:1000; background:#000000; filter:alpha(opacity=50); -moz-opacity:0.5; -khtml-opacity:0.5; opacity:0.5;}
+
+/* 所有弹出层的标题 */
+.layout-title{width:100%; height:40px; line-height:40px; background:#DA4747; font-size:14px; color:#fff;}
+.layout-title .icon-close{width:19px; height:19px; margin-right:15px;margin-top:10px; color:#f0f0f0; cursor:pointer;}
+.layout-title .icon-close:hover{color:#888;}
+
+/* 菜单浮动弹出层 */
+.layout-quickmenu{width:399px;min-height:260px; left:50%; top:60px; margin-left:200px; position:fixed; z-index:1002; background:#ffffff; border:1px solid #e2e2e2; border-top:1px solid #da3610;}
+
+/* 报价弹出层 */
+.layout-quote{width:500px; height:640px; left:50%; top:50%; margin-left:-250px; margin-top:-350px; position:fixed; z-index:1001; background:#ffffff;}
+.layout-quote .mainC{width:500px; /* height:600px; */ background:#ffffff;}
+
+/* 导出成交明细弹出层 */
+.layout-export{width:360px; height:230px; left:50%; top:50%; margin-left:-180px; margin-top:-150px; position:fixed; z-index:1001; background:#ffffff;}
+.layout-export .main{width:300px; height:200px; padding:15px 15px 15px 45px; background:#ffffff;}
+
+/* 导出合同明细弹出层 */
+.layout-export-contract{width:360px; height:230px; left:50%; top:50%; margin-left:-180px; margin-top:-150px; position:fixed; z-index:1001; background:#ffffff;}
+.layout-export-contract .main{width:300px; height:200px; padding:15px 15px 15px 45px; background:#ffffff;}
+
+/* 导出合同文本弹出层 */
+.layout-export-contractPdf{width:360px; height:240px; left:50%; top:50%; margin-left:-180px; margin-top:-150px; position:fixed; z-index:1001; background:#ffffff;}
+.layout-export-contractPdf .main{width:320px; height:200px; padding:10px 10px 10px 30px; background:#ffffff;}
+
+/* 切换公司弹出层 */
+.layout-changeCompany{width:400px; min-height:200px; left:50%; top:50%; margin-left:-200px; margin-top:-150px; position:fixed; z-index:1001; background:#ffffff;}
+.layout-changeCompany .main{width:370px; min-height:170px; padding:15px; background:#ffffff;}
+
+/* 新增子账户弹出层 */
+.layout-childAccount{width:550px; min-height:300px; left:50%; top:50%; margin-left:-300px; margin-top:-350px; position:fixed; z-index:1001; background:#ffffff;}
+.layout-childAccount .main{width:520px; min-height:300px; padding:15px; background:#ffffff;border-bottom:1px solid #e2e2e2;}
+
+/* 修改子账户弹出层 */
+.layout-childAccountUpdate{width:500px; min-height:250px; left:50%; top:50%; margin-left:-300px; margin-top:-350px; position:fixed; z-index:1001; background:#ffffff;}
+.layout-childAccountUpdate .main{width:470px; min-height:200px; padding:15px; background:#ffffff;}
+
+/* 编辑子账户权限弹出层 */
+.layout-childAccountPermission{width:500px; min-height:300px; left:50%; top:50%; margin-left:-250px; margin-top:-350px; position:fixed; z-index:1001; background:#ffffff;}
+.layout-childAccountPermission .main{width:470px; min-height:300px; padding:15px; background:#ffffff;}
+
+/* 消息弹出框弹出层 */
+.msgLayoutDiv{width:510px; height:252px; position:fixed; z-index:9999; left:50%; top:50%; margin-left:-255px; margin-top:-200px; border:1px solid #AAA;}
+.msgLayoutDiv .mainMsg1{width:510px; height:252px; padding-bottom:10px; background:#ffffff;}
+
+/* 确认消息弹出框*/
+.confirmMsgLayout{width:510px; height:252px; position:fixed; z-index:9999; left:50%; top:50%; margin-left:-255px; margin-top:-200px; border:1px solid #AAA;}
+.confirmMsgLayout .mainMsg2{width:510px; height:252px; padding-bottom:10px; background:#ffffff;}
+
+/* 编辑今日投放弹出层*/
+.layout-payablesMarket{width:450px; height:481px; left:50%; top:50%; margin-left:-235px; margin-top:-250px; position: fixed; z-index:1001; background:#ffffff;}
+.layout-payablesMarket .mainC{width:450px; background:#ffffff;}
+
+/* 交易确认弹出层*/
+.layout-confirmTrade{width:918px; min-height:200px; max-height:800px; left:50%; top:50%; margin-left:-459px; margin-top:-320px; position: fixed; z-index:1001; background:#ffffff;}
+.layout-confirmTrade .mainConfirm{width:870px; min-height:200px; padding:24px; background:#ffffff;}
+
+.layout-payTrade{width:918px; min-height:200px; left:50%; top:50%; margin-left:-459px; margin-top:-320px; position: fixed; z-index:1001; background:#ffffff;}
+.layout-payTrade .mainPay{width:870px; min-height:200px; padding:24px; background:#ffffff;}
+
+/* 会员支付弹出层*/
+.layout-memberPay{width:700px; min-height:460px; left:50%; top:50%; margin-left:-350px; margin-top:-280px; position: fixed; z-index:1001; background:#ffffff;}
+.layout-memberPay .main{width:700px; min-height:400px; background:#ffffff;}
+
+/* 上传公司LOGO弹出层*/
+.layout-logo{width:640px; min-height:600px; left:50%; top:50%; margin-left:-315px; margin-top:-320px; position: fixed; z-index:1001; background:#ffffff;}
+.layout-logo .main{width:600px; min-height:570px; padding:15px 20px; background:#ffffff;}
+
+/* 计算器弹出层 */
+.layout-calculator{width:350px; height:372px; left:50%; top:50%; margin-left:-175px; margin-top:-280px; position:fixed; z-index:1001; background:#ffffff;}
+.layout-calculator .mainCon{width:350px; background:#ffffff;}
+
+/* 应收账款*/
+.layout-receive{width:110px; min-height:32px; left:50%; top:50%; margin-left:-740px; margin-top:-230px; position:fixed; z-index:999; background:#ffffff;}
+
+/* 首次登陆引导页弹出层*/
+.layout-guide{width:800px; min-height:450px; left:50%; top:50%; margin-left:-400px; margin-top:-280px; position: fixed; z-index:1001; background:#ffffff; border-radius:3px;}
+
+/* 索要发票弹出层*/
+.layout-feeBill{width:620px; min-height:650px; left:50%; top:50%; margin-left:-310px; margin-top:-370px; position: fixed; z-index:1001; background:#ffffff;}
+
+/* 交易明细弹出层*/
+.layout-tradeHis{width:800px; min-height:460px; left:50%; top:100%; margin-left:-400px; position: fixed; z-index:1001; background:#ffffff; -moz-box-shadow:0 0 8px #06c; -webkit-box-shadow:0 0 8px #06c; box-shadow:0 0 8px #06c inset;}
+
+/* 添加消息弹出层*/
+.layout-addMessage{width:700px; min-height:300px; left:50%; top:50%; margin-left:-350px; margin-top:-280px; position: fixed; z-index:1001; background:#ffffff;}
+.layout-addMessage .messageShadow{width:700px; min-height:550px; background:#ffffff;}
+
+/* 微信关注弹出层*/
+.layout-focusWechat{width:450px; left:50%; top:50%; margin-left:-225px; margin-top:-300px; position: fixed; z-index:1001; background:#ffffff;}
+.layout-focusWechat .mainDiv{width:450px; background:#ffffff;}
